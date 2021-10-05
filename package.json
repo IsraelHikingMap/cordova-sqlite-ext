@@ -30,7 +30,8 @@
   },
   "homepage": "https://github.com/litehelpers/cordova-sqlite-ext",
   "dependencies": {
-    "cordova-sqlite-ext-deps": "3.0.1"
+    "cordova-sqlite-ext-deps": "3.0.1",
+    "cordova-sqlite-storage-dependencies": "4.0.0"
   },
   "scripts": {
     "clean-spec": "rm -rf spec/[mnp]* && git cl spec/config.xml spec/package.json && git status --ignored",
